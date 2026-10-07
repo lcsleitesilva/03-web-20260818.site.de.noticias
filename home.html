@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <script src="funcionalidade.js"></script>
+    <script src="./assets/menu.hamburguer.js"></script>
+    <title>Meu Site</title>
+    <script src="https://kit.fontawesome.com/ec3a3fcdd8.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <header>
+        <div id="logoDoSite" class="logo">H</div>
+        <h1 class="titulo">Meu Site de Notícias</h1>
+        <div class="menu-hamburguer" onclick="alternarVisualizacaoDoMenuLateral()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        </div>
+    </header>
+    <section>
+        <nav>
+            <ul class="menu-lateral">
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-newspaper"></i>
+                            </div>
+                            <div class="rotulo">Notícia</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="rotulo">Mensagem</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="rotulo">Perfil</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            </div>
+                            <div class="rotulo">Sair</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            </div>
+                            <div class="rotulo">
+                                <a href="./pricingBootstrap.html">Site de preços (Usando bootstrap)</a>
+                            </div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main id="noticias" class="container">
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="./assets/img/mobilidade.png" alt="imagem de ônibus nas ruas">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-do-cartao">Mobilidade Urbana</h1>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Transporte</span>
+                        <span class="data-da-noticia">05/03/2026</span>
+                    </p>
+                    <p class="descricao-da-noticia">
+                        Prefeitura lança novo plano de mobilidade urbana.
+                    </p>
+                    <p class="autor-da-noticia">Ana Maria Pires</p>
+                </section>
+                <a href="#">
+                    <div class="botao-do-cartao">
+                        <div class="rotulo">Leia mais</div>
+                        <div class="icone-final-cartao">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="./assets/img/festival-musica.png" alt="imagem de ônibus nas ruas">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-do-cartao">Festival de música</h1>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Entretenimento</span>
+                        <span class="data-da-noticia">24/08/2026</span>
+                    </p>
+                    <p class="descricao-da-noticia">
+                        Festival super master blaster
+                    </p>
+                    <p class="autor-da-noticia">Henrique Marques Pyramo</p>
+                </section>
+                <a href="#">
+                    <div class="botao-do-cartao">
+                        <div class="rotulo">Leia mais</div>
+                        <div class="icone-final-cartao">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="./assets/img/gastronomia.png" alt="imagem de ônibus nas ruas">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-do-cartao">Gastronomia</h1>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Entretenimento</span>
+                        <span class="data-da-noticia">05/03/2026</span>
+                    </p>
+                    <p class="descricao-da-noticia">
+                        Super churrascão. Evento open bar e open food!
+                    </p>
+                    <p class="autor-da-noticia">Michael</p>
+                </section>
+                <a href="#">
+                    <div class="botao-do-cartao">
+                        <div class="rotulo">Leia mais</div>
+                        <div class="icone-final-cartao">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="./assets/img/tecnologia6g.png" alt="imagem de ônibus nas ruas">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-do-cartao">Tecnologia 6G</h1>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Tecnologia</span>
+                        <span class="data-da-noticia">25/08/2026</span>
+                    </p>
+                    <p class="descricao-da-noticia">
+                        Pesquisas sobre como a rede 6G opera
+                    </p>
+                    <p class="autor-da-noticia">Priscila</p>
+                </section>
+                <a href="#">
+                    <div class="botao-do-cartao">
+                        <div class="rotulo">Leia mais</div>
+                        <div class="icone-final-cartao">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </main>
+    </section>
+    <footer>&copy, Meu Site, 2026, 😊</footer>
+</body>
+
+</html>
