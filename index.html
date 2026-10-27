@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu site de notícias</title>
     <link rel="stylesheet" href="./assets/css/login/estilo.css">
-    <script src="./assets/login.js"></script>
+    <script src="./assets/js/login.js"></script>
     <script src="https://kit.fontawesome.com/ec3a3fcdd8.js" crossorigin="anonymous"></script>
 </head>
 
@@ -17,20 +17,21 @@
         <div class="menu-hamburguer" onclick="alternarVisualizacaoDoMenuLateral()">
             <i class="fa-solid fa-bars"></i>
         </div>
-        <div class="container">
+        <div class="conteiner">
             <h1> login</h1>
             <form>
-                <div class="input-grupo">
+                <div class="input-group">
                     <i class="fas fa-envelope"></i>
-                    <input id="email" type="email" placeholder="Informe seu email">
+                    <input id="email" type="email" placeholder="Informe seu email" style="display: block !important;">
                 </div>
                 <div class="icon">
                 </div>
-                <div class="input-grupo">
+                <div class="input-group">
                     <i class="fas fa-lock"></i>
                     <input id="senha" type="password" placeholder="Informe sua senha">
                 </div>
-                <button onclick="verificarCredenciais()" return false;>
+                <button type="button" onclick="verificarCredenciais()">
+                </button>
                     <i class="fas fa-sign-in-alt"></i>
                     Entrar
                 </button>

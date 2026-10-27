@@ -2,7 +2,7 @@ const email = "admin@email.com";
 const senha = "1234";
 
 function verificarCredenciais() {
-    const emailinformado = document.getElementById("email").value;
+    const emailinformado = document.getElementById("email").value.trim().toLowerCase();
     const senhainformada = document.getElementById("senha").value;
 
     if (emailinformado == email) {
