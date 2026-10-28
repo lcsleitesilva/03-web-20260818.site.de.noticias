@@ -22,8 +22,9 @@ function verificarCredenciais() {
 }
 document.addEventListener("DOMContentLoaded",() =>{
     const botao = document.querySelector("button");
+    
     botao.addEventListener("click", (e) =>{
         e.preventDefault();
         verificarCredenciais();
-    })
-})
+    });
+});
