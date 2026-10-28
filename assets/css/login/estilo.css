@@ -1,5 +1,6 @@
 @import url("cabecalho.css");
 @import url("painel.css");
+@import url("estilo.css");
 
 * {
     font-size: 16px;
@@ -17,3 +18,4 @@ body {
     background-color: #eee;
     color: #5e5e5e;
 }
+

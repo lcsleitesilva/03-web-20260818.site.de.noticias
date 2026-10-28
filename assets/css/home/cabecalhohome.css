@@ -28,12 +28,10 @@ header {
 
 .titulo {
     /* border: .2rem solid yellow; */
-    /* width: 100%; */
     flex: 1;
 }
 
-.menu-hamburguer {
-    /* border: .5rem solid red; */
+.menu-hamburguer{
     border-radius: 100%;
     width: 1rem;
     height: 1rem;
@@ -45,15 +43,15 @@ header {
     background-color: #464646;
 }
 
-.menu-hamburguer #hamburguer {
+.menu-hamburguer i{
     font-size: 1.2rem;
     color: #ccc;
 }
 
-.menu-hamburguer:hover #hamburguer {
-    color: red;
+.menu-hamburguer:houver #icone {
+    color: #1bf807;
 }
 
-.menu-hamburguer #hamburguer:hover {
-    color: yellowgreen;
+.menu-hamburguer #icone:houver {
+    color: rgb(18, 58, 236);
 }

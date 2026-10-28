@@ -1,48 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu site de notícias</title>
+    <title>Meu site de noticias</title>
     <link rel="stylesheet" href="./assets/css/login/estilo.css">
-    <script src="./assets/js/login.js"></script>
-    <script src="https://kit.fontawesome.com/ec3a3fcdd8.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/bd.js"></script>
+<script src="./assets/js/login.js"></script>
+    <script src="https://kit.fontawesome.com/d424a9779f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 </head>
 
 <body>
     <header>
-        <div id="logoDoSite" class="logo">L</div>
-        <h1 class="titulo">Meu Site de Notícias</h1>
-        <div class="menu-hamburguer" onclick="alternarVisualizacaoDoMenuLateral()">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="conteiner">
-            <h1> login</h1>
-            <form>
-                <div class="input-group">
-                    <i class="fas fa-envelope"></i>
-                    <input id="email" type="email" placeholder="Informe seu email" style="display: block !important;">
-                </div>
-                <div class="icon">
-                </div>
-                <div class="input-group">
-                    <i class="fas fa-lock"></i>
-                    <input id="senha" type="password" placeholder="Informe sua senha">
-                </div>
-                <button type="button" onclick="verificarCredenciais()">
-                </button>
-                    <i class="fas fa-sign-in-alt"></i>
-                    Entrar
-                </button>
-            </form>
-        </div>
-        <div class="links auxiliares">
-            <a href="#">Esqueceu a senha?</a>
-            <span>-</span>
-            <a href="#">Registrar-se</a>
-        </div>
+        <div class="logo">P</div>
+        <h1 class="titulo">Meu site de Noticias</h1>
+    </header>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <div class="input-grupo">
+                <i class="fas fa-envelope"></i>
+                <input id="email" type="email" placeholder="Informe seu e-mail">
+            </div>
+            <div class="input-grupo">
+                <i class="fas fa-lock"></i>
+                <input id="senha" type="password" placeholder="Informe sua senha" />
+            </div>
+            <button onclick="verificarCredenciais();return false;">
+                <i class="fas fa-sign-in-alt"></i>
+                Entrar
+            </button>
+        </form>
+            <div class="links-auxiliares">
+                <a href="#">Esqueceu a senha?</a>
+                <span>-</span>
+                <a href="#">Registra-se</a>
+            </div>
+   </div>      
 
+   
 </body>
 
 </html>
